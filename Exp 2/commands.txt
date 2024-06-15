@@ -1,0 +1,25 @@
+cd Week2
+mkdir commands
+cat > file1.txt
+cat file1.txt file2.txt >file3.txt
+cat file3.txt
+ls
+ls *.txt
+pwd
+cp file4.txt file1.txt
+mv file4.txt commands
+head file1.txt
+tac file3.txt
+id
+diff file1.txt file2.txt
+ping 127.0.1.1
+history
+hostname
+hostname -i
+chmod a+r file1.txt ///////////// chmod u+rwx file3.txt
+vi
+nl file3.txt/////////////// nl -b a file3.txt
+rmdir commands 
+wc file3.txt
+uniq file3.txt
+grep -c file3.txt
